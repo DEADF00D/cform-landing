@@ -1,6 +1,6 @@
-h1{
-	font-family: "Abril Fatface", cursive;
-  font-weight: 400;
+.h1{
+	font-family: "Abril Fatface", cursive !important;
+  font-weight: 400 !important;
 }
 
 .leading{
@@ -8,11 +8,11 @@ h1{
   min-height: 100vh;
 }
 
-.leading h1{
+.leading .h1{
   font-size: 5em;
 }
 
-.leading h2{
+.leading .h2{
   font-weight: 200;
 }
 
