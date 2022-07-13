@@ -1,0 +1,55 @@
+h1{
+	font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+}
+
+.leading{
+  background-color: #fff3e0;
+  min-height: 100vh;
+}
+
+.leading h1{
+  font-size: 5em;
+}
+
+.leading h2{
+  font-weight: 200;
+}
+
+.leading .btn{
+  border-width: 3px;
+}
+
+.stepper{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.stepper .step-count{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Abril Fatface", cursive;
+  display: inline-block;
+}
+
+.stepper .step-content{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.badge-dark-light{
+  background-color: #444 !important;
+  color: white !important;
+}
+
+.bg-dark, .text-dark{
+  background-color: rgb(23, 28, 25) !important;
+}
